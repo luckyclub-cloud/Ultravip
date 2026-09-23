@@ -248,7 +248,7 @@
         ? `${LANDING_CONFIG.PROMO.LANDING_TAG}-${uuid12}`
         : "";
 
-      const mensaje = buildMensaje(promo_code);
+      const mensaje = buildMensaje();
 
       const waUrl = `https://wa.me/${cleanPhone}?text=${encodeURIComponent(mensaje)}`;
       let done = false;
